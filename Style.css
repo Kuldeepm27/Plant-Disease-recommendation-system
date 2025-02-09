@@ -1,0 +1,84 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #adf39c; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #378137;
+    padding: 10px 20px;
+    color: #8bd684;
+    font-size: 1.2em;
+}
+
+.navbar .logo h2 {
+    margin: 0;
+    color: #b1f1b7;
+}
+/* Container Styles */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/1348.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Image Upload Section */
+.upload-container {
+    text-align: center;
+    margin: 30px auto;
+    background-color: #c6f3c2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(8, 54, 15, 0.952);
+    max-width: 600px;
+}
+
+.upload-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2f4f2f;
+}
+
+.upload-container input[type="file"] {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.upload-container button {
+    background-color: #2f4f2f;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-container button:hover {
+    background-color: #3d6d3d;
+}
